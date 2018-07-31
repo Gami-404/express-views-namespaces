@@ -5,34 +5,51 @@ Switch between express's views directories using namespaces
 [GITGUB](https://github.com/Gami-404/express-views-namespaces)
 
 
-## Using 
+## Documentation 
+### 1-Install
+    `
+        npm i express-views-namespaces
+    `
 
-### Main setting 
+### 2- Add plugin to application
+
     ```
-       var app = require('express')();
+       var express = require('express');
        var namespace = require('express-views-namespaces');
        
+       var app=express()
        // Activte  namespaceing 
-       namespace(app);
-       
-       // Add namespace
-       app.namespaceView('namespace', viewsPath);
-       
+       namespace(app[,options]);
+       ...
+       ...
+       ...
        
     ```
-### Routing 
+#### options default value
+    {
+        "separator":"::", // namespace's separator
+        "global":"views-namespaces" // application setting 
+            
+     } 
+
+    
+### Add namespace
+    ```
+       // Add namespace
+       
+       var viewPath= path.join(__dirname,'/anydirectory/views')
+       app.namespaceView('mynamespace', viewsPath);
+       
+    ```
+### Render using namespace 
     ```
       app.get('/test', function (req, res, next) {
           
           // using  view's path which has namespace
-          res.render('namespace::index');
+          res.render('mynamespace::index');
       });
-       
-       
+
     ```
-    
-## TESTED
-    ** This test with ejs and hbs view engine **
 ## License
 
 The express-views-namespaces package licensed under the [MIT license](https://opensource.org/licenses/MIT).

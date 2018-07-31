@@ -19,5 +19,9 @@
     "email": "abdulrhmangaml@gmail.com",
     "name": "Abdulrhman gamal"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gami-404/express-views-namespaces"
+  },
   "license": "MIT"
 }
