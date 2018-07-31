@@ -7,9 +7,8 @@ Switch between express's views directories using namespaces
 
 ## Documentation 
 ### 1-Install
-    `
+  
         npm i express-views-namespaces
-    `
 
 ### 2- Add plugin to application
 
