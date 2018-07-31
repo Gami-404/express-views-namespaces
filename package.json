@@ -1,0 +1,23 @@
+{
+  "name": "express-views-namespaces",
+  "version": "0.0.1",
+  "description": "Switch between express's views directories using namespaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "express-views",
+    "views",
+    "express-namespace"
+  ],
+  "dependencies": {
+    "express": "~4.16.0"
+  },
+  "author": {
+    "email": "abdulrhmangaml@gmail.com",
+    "name": "Abdulrhman gamal"
+  },
+  "license": "MIT"
+}
