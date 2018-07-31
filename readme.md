@@ -10,7 +10,7 @@ Switch between express's views directories using namespaces
 ### Main setting 
     ```
        var app = require('express')();
-       var namespace = require('./express-views-namespaces');
+       var namespace = require('express-views-namespaces');
        
        // Activte  namespaceing 
        namespace(app);
