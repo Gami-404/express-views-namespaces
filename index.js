@@ -35,7 +35,6 @@ module.exports = function (app, _options) {
         var renderOptions = {};
         var view;
 
-        console.log('render start>>', name);
         // support callback function as second arg
         if (typeof options === 'function') {
             done = options;
@@ -95,7 +94,7 @@ module.exports = function (app, _options) {
         // render
         options.settings = app.settings;
         try {
-            view.render(options, callback);
+            view.render(renderOptions, callback);
         } catch (err) {
             callback(err);
         }
