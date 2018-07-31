@@ -1,11 +1,12 @@
-#express-views-namespaces
+# express-views-namespaces
 
 Switch between express's views directories using namespaces
 
 [GITGUB](https://github.com/Gami-404/express-views-namespaces)
 
-##using 
-   
+
+## Using 
+   Coming soon
 
 ## License
 
