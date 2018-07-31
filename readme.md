@@ -15,6 +15,7 @@ Switch between express's views directories using namespaces
        // Activte  namespaceing 
        namespace(app);
        
+       // Add namespace
        app.namespaceView('namespace', viewsPath);
        
        
@@ -22,6 +23,8 @@ Switch between express's views directories using namespaces
 ### Routing 
     ```
       app.get('/test', function (req, res, next) {
+          
+          // using  view's path which has namespace
           res.render('namespace::index');
       });
        
