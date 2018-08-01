@@ -1,8 +1,8 @@
 # express-views-namespaces
 
-Switch between express's views directories using namespaces
+You can switch between express's views directories using namespaces
 
-[GITGUB](https://github.com/Gami-404/express-views-namespaces)
+[GITHUB](https://github.com/Gami-404/express-views-namespaces)
 
 
 ## Documentation 
@@ -23,7 +23,7 @@ Switch between express's views directories using namespaces
        ...
        ...
        
-#### options default value
+#### options default values
     {
         "separator":"::", // namespace's separator
         "global":"views-namespaces" // application setting 
@@ -44,6 +44,11 @@ Switch between express's views directories using namespaces
           // using  view's path which has namespace
           res.render('mynamespace::index');
       });
+
+## Author
+
+For any question [abdulrhmangaml@gmail.com](mailto:abdulrhmangaml@gmail.com)
+:)
 
 ## License
 

@@ -1,6 +1,6 @@
 {
   "name": "express-views-namespaces",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Switch between express's views directories using namespaces",
   "main": "index.js",
   "scripts": {
