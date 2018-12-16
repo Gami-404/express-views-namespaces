@@ -1,6 +1,6 @@
 # express-views-namespaces
 
-You can switch between express's views directories using namespaces
+You can switch between express's views directories using namespaces easily, 
 
 [GITHUB](https://github.com/Gami-404/express-views-namespaces)
 
